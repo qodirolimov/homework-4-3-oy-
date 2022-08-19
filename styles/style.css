@@ -1,0 +1,578 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+.wrap{
+   width: 1152px;
+   padding:220px;
+   border: 2px solid rgb(31, 255, 23);
+   margin-left: 100px;
+   margin-top:70px;
+}
+
+.result_first{
+   top: -120px;
+   left: 20px;
+   color: deeppink;
+   position: relative;
+}
+
+.wrap_button{
+
+ 
+   width: 340px;
+   display: flex;
+   justify-content: space-around;
+   top: -10px;
+   position: relative;
+   left: -141px;
+}
+
+
+
+.button_first{
+background: greenyellow;
+padding: 9px 22px;
+font-size: 29px;
+}
+
+.button_second{
+   background: rgb(255, 47, 175);
+   padding: 9px 19px; 
+   font-size: 29px; 
+}
+
+.button_third{
+   background: rgb(210, 255, 28);
+   padding: 9px 22px;
+   font-size: 29px;   
+}
+
+.button_fourth{
+   background: rgb(255, 47, 47);
+   padding: 9px 22px;
+   font-size: 29px;  
+}
+.button_fifth{
+   background: rgb(218, 31, 255);
+   padding: 9px 19px;
+   font-size: 29px;  
+}
+
+.input_first{
+width: 190px;
+padding-top: 28px ;
+position: relative;
+top: -99px;
+left: -40px;
+font-size: 22px;  
+
+
+}
+
+.input_second{
+   width: 190px;
+padding-top: 28px;
+top: -90px;
+left: -40px;
+position: relative;
+font-size: 22px;
+}
+
+.input_first::placeholder{
+font-size:14px;
+position: relative;
+top: -12px;
+left: 20px;
+}
+
+.input_second::placeholder{
+   font-size: 14px;
+   position: relative;
+top: -12px;
+left: 20px;
+}
+
+
+
+
+.section_first{
+ width: 1200px;
+   display: flex;
+ flex-wrap: wrap;
+ margin-left: 100px;
+ 
+}
+
+.card{
+   width: 384px;
+   padding: 160px ;
+   border:  2px solid yellow;
+
+ 
+}
+
+
+.result_second{
+margin-top: -160px;
+color: aqua;
+}
+
+
+.input3{
+   margin-top: 7px;
+   position: relative;
+   left: -60px;
+   padding: 9px 20px;
+}
+
+.button6{
+   padding: 5px 12px;
+   width: 120px;
+   position: relative;
+   left: -60px;
+   top: 9px;
+   font-size: 18px;
+   background:rgb(255, 238, 3);
+}
+
+.button7{
+   padding: 5px 12px;
+   width: 40px;
+   position: relative;
+   left: 80px;
+   top: -25px;
+   font-size: 16px;
+   background:rgb(3, 255, 62);
+}
+
+.number1{
+
+   width:100px;
+   position: relative;
+   left: -21px;
+   top:40px;
+}
+
+.number2{
+   width:100px;
+   position: relative;
+   left: -21px;
+   top:40px;
+}
+
+
+.input4{
+   margin-top: 7px;
+   position: relative;
+   left: -60px;
+   padding: 9px 20px; 
+}
+
+.result_third{
+   margin-top: -160px;
+   color:darkorchid;  
+}
+
+.input5{
+   margin-top: 7px;
+   position: relative;
+   left: -60px;
+   padding: 9px 20px; 
+}
+
+
+.button8{
+   padding: 5px 2px;
+   width: 90px;
+   position: relative;
+   left: -59px;
+   top: 9px;
+   background:crimson;
+   font-size:18px;
+   color: white;
+}
+
+.button9{
+   padding: 8px 18px;
+   width: 60px;
+   position: relative;
+   left: 80px;
+   top: -45px;
+   background:rgb(3, 255, 62); 
+   font-size:28px;
+   color: white;
+}
+
+
+.number3{
+   width:100px;
+   position: relative;
+   left: 2px;
+   top:9px;
+}
+
+
+.result_fourth{
+   margin-top: -160px;
+   color: deeppink;   
+}
+
+.input6{
+   margin-top: 7px;
+   position: relative;
+   left: -60px;
+   padding: 9px 20px;
+}
+
+.input7{
+   margin-top: 7px;
+   position: relative;
+   left: -60px;
+   padding: 9px 20px; 
+}
+
+
+.button10{
+   padding: 15px 2px;
+   width: 90px;
+   position: relative;
+   left: -59px;
+   top: 9px;
+   background:yellow;
+   font-size:18px;
+   color: black;
+}
+
+
+.button11{
+   padding: 8px 18px;
+   width: 60px;
+   position: relative;
+   left: 80px;
+   top: -45px;
+   background:rgb(3, 255, 62); 
+   font-size:28px;
+   color: white;
+}
+
+.number4{
+   width:100px;
+   position: relative;
+   left: 2px;
+   top:9px;
+}
+
+.result_fifth{
+   margin-top: -160px;
+   color: red;
+   
+}
+
+.input8{
+   top: 67px;
+   position: relative;
+   left: -60px;
+   padding: 16px 20px; 
+}
+
+
+.button12{
+   padding: 5px 2px;
+   width: 90px;
+   position: relative;
+   left: -59px;
+   top: 79px;
+   background:red;
+   font-size:22px;
+   color: black;
+}
+
+.button13{
+   padding: 5px 2px;
+   width: 90px;
+   position: relative;
+   left: -59px;
+   top: 85px;
+   background:yellowgreen;
+   font-size:22px;
+   color: black;
+
+
+}
+
+.button14{
+   padding: 5px 2px;
+   width: 90px;
+   position: relative;
+   left: -59px;
+   top: 92px;
+   background:yellow;
+   font-size:22px;
+   color: black;
+}
+
+.button15{
+   padding: 5px 2px;
+   width: 70px;
+   position: relative;
+   left:79px;
+   top: -12px;
+   background:rgb(44, 246, 44);
+   font-size:38px;
+   color: black;
+}
+
+.number5{
+   width:100px;
+   position: relative;
+   left: 2px;
+   top: 69px;
+}
+
+
+.result_sixth{
+   margin-top: -160px;
+   color: aqua;
+   
+}
+
+.input9{
+   top: 27px;
+   position: relative;
+   left: -60px;
+   padding: 16px 20px; 
+}
+
+
+.input10{
+   top: 34px;
+   position: relative;
+   left: -60px;
+   padding: 16px 20px; 
+}
+
+.number6{
+   width:100px;
+   position: relative;
+   left: 2px;
+   top: 99px;
+}
+
+.button16{
+   padding: 5px 2px;
+   width: 90px;
+   position: relative;
+   left: -59px;
+   top: 42px;
+   background:yellow;
+   font-size:22px;
+   color: black;
+}
+
+.button17{
+   padding: 16px 2px;
+   width: 90px;
+   position: relative;
+   left: 59px;
+   top: -22px;
+   background:rgb(32, 255, 50);
+   font-size:22px;
+   color: black;
+}
+
+.result_seventh{
+   margin-top: -160px;
+   color: red;
+   font-size: 48px;
+   
+}
+
+.input11{
+   top: -89px;
+   position: relative;
+   left: -90px;
+   padding: 16px 2px; 
+   font-size: 22px;
+   text-align: center;
+}
+
+.input12{
+   top: 44px;
+   position: relative;
+   left: -60px;
+   padding: 16px 20px; 
+}
+
+.number7{
+   width:100px;
+   position: relative;
+   left: 2px;
+   top: 9px;
+}
+
+
+.button18{
+   padding: 5px 2px;
+   width: 120px;
+   position: relative;
+   left: -59px;
+   top: -72px;
+   background:yellow;
+   font-size:17px;
+   color: black;
+}
+
+.button19{
+   padding: 5px 2px;
+   width: 120px;
+   position: relative;
+   left: -59px;
+   top:-64px;
+   background:yellow;
+   font-size:17px;
+   color: black;
+}
+
+.button20{
+   padding: 15px 2px;
+   width: 60px;
+   position: relative;
+   left: 84px;
+   top: -129px;
+   background:rgb(26, 223, 66);
+   font-size:22px;
+   color: black;
+}
+
+.number8{
+   width:120px;
+   position: relative;
+   left: -90px;
+   top: 199px;
+}
+
+.button21{
+   padding: 5px 12px;
+   width: 60px;
+   position: relative;
+   left: -394px;
+   top: 159px;
+   background:rgb(26, 223, 66);
+   font-size:22px;
+   color: black;
+}
+
+.button22{
+   padding: 5px 12px;
+   width: 60px;
+   position: relative;
+   left: -384px;
+   top: 159px;
+   background:rgb(26, 223, 66);
+   font-size:22px;
+   color: black;
+}
+
+.button23{
+   padding: 5px 22px;
+   width: 60px;
+   position: relative;
+   left: 494px;
+   top: 109px;
+   background:rgb(225, 14, 14);
+   font-size:22px;
+   color: black;
+}
+
+
+.button24{
+   padding: 5px 12px;
+   width: 60px;
+   position: relative;
+   left: -374px;
+   top: 159px;
+   background:rgb(26, 223, 66);
+   font-size:22px;
+   color: black;
+}
+
+.button25{
+   padding: 5px 12px;
+   width: 60px;
+   position: relative;
+   left: -364px;
+   top: 159px;
+   background:rgb(26, 223, 66);
+   font-size:22px;
+   color: black;
+}
+
+.button26{
+   padding: 5px 12px;
+   width: 60px;
+   position: relative;
+   left: -354px;
+   top: 159px;
+   background:rgb(26, 223, 66);
+   font-size:22px;
+   color: black;
+}
+
+.button27{
+   padding: 5px 12px;
+   width: 60px;
+   position: relative;
+   left: -344px;
+   top: 159px;
+   background:rgb(26, 223, 66);
+   font-size:22px;
+   color: black;
+}
+
+.button28{
+   padding: 5px 12px;
+   width: 60px;
+   position: relative;
+   left: -334px;
+   top: 159px;
+   background:rgb(26, 223, 66);
+   font-size:22px;
+   color: black;
+}
+
+.button29{
+   padding: 5px 12px;
+   width: 60px;
+   position: relative;
+   left: 334px;
+   top: 109px;
+   background:rgb(26, 223, 66);
+   font-size:22px;
+   color: black;
+}
+
+.button30{
+   padding: 5px 12px;
+   width: 60px;
+   position: relative;
+   left: 345px;
+   top: 109px;
+   background:rgb(26, 223, 66);
+   font-size:22px;
+   color: black;
+}
+
+.button31{
+   padding: 5px 12px;
+   width: 60px;
+   position: relative;
+   left: 355px;
+   top: 109px;
+   background:rgb(26, 223, 66);
+   font-size:22px;
+   color: black;
+}
